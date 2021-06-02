@@ -1,0 +1,107 @@
+.card {
+    margin: 10px 0; 
+    padding: 5px 15px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.labels_container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-size: 14px;
+    margin: 0px 5px;
+}
+
+.logo_img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.description_container {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.15s ease-out;
+    padding: 15px 20px 0px;
+}
+
+.description-open {
+    max-height: 1000px;
+}
+
+.status_container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.status {
+    text-align: center;
+}
+
+.label_circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.table_head__container {
+    display: flex;
+}
+
+.table_head__container > div {
+    margin: 0 15px;
+}
+
+.filters_list {
+    margin: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter {
+    margin: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.delete_filter_btn {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.spinner_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
